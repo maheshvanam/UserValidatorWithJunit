@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.uservalidation.ValidateUserTest" tests="30" skipped="0" failures="0" errors="0" timestamp="2020-04-02T09:55:30" hostname="DESKTOP-TGUDOD0" time="0.121">
+  <properties/>
+  <testcase name="givenFirstName_whenLessThenTheMinLength_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.008"/>
+  <testcase name="givenLastName_whenLessThenTheMinLength_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_whenGreaterThenSpecifiedLength_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.002"/>
+  <testcase name="givenEmail_whenNotContainsSepecialCharacter_shouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.002"/>
+  <testcase name="givenEmail_whenProperWithSecondOptinalField_shouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.004"/>
+  <testcase name="givenEmail_whenNotContainsSecondMandatoryPart_shouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.014"/>
+  <testcase name="givenPhoneNumber_whenLessThenSpecifiedLength_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.002"/>
+  <testcase name="givenFirstName_whenProper_ShouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <testcase name="givenEmail_whenItContainsMultipleTLDs_shouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.007"/>
+  <testcase name="givenFirstName_whenContainsNumber_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_whenContainsAnotherCharacterAfterCountryCode_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.0"/>
+  <testcase name="givenEmail_whenProperWithDoaminNameAsNumber_shouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <testcase name="givenEmail_whenProperWithMandatoryFields_shouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <testcase name="givenEmail_whenProperWithFirstOptinalFiledWithNumber_shouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.002"/>
+  <testcase name="givenLastName_whenContainsSpecialCharacter_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <testcase name="givenLastName_whenContainsNumber_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <testcase name="givenEmail_whenItContainsSpecialCharcterInSecondMandatoryPart_shouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.005"/>
+  <testcase name="givenFirstName_whenContainsSpecialCharacter_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.0"/>
+  <testcase name="givenLastName_whenStartWithLowerCaseLetter_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <testcase name="givenLastName_whenProperWithMinLength_ShouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_whenContainsCharacters_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.0"/>
+  <testcase name="givenFirstName_whenStartWithLowerCaseLetter_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.0"/>
+  <testcase name="givenLastName_whenProper_ShouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.0"/>
+  <testcase name="givenEmail_whenTLDLessThenMinCharacters_shouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_whenCountyCodeGreaterThenSpecifiedLength_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_whenNotHavingSpaceAfterCountryCode_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.002"/>
+  <testcase name="givenPhoneNumber_whenCountyCodeLessThenSpecifiedLength_ShouldReturnFalse" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.002"/>
+  <testcase name="givenEmail_whenProperWithFirstOptinalField_shouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.002"/>
+  <testcase name="givenPhoneNumber_whenProper_ShouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.006"/>
+  <testcase name="givenFirstName_whenProperWithMinLength_ShouldReturnTrue" classname="com.bridgelabz.uservalidation.ValidateUserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
